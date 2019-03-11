@@ -1,0 +1,32 @@
+#products_container {
+  display: flex;
+  height: 100%; }
+  #products_container #sidenav_container {
+    height: inherit;
+    width: 30%; }
+    #products_container #sidenav_container ul {
+      height: inherit;
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+      #products_container #sidenav_container ul hr {
+        margin: .5rem 0 1rem 0; }
+      #products_container #sidenav_container ul li :hover {
+        background-color: #bbb;
+        cursor: pointer; }
+      #products_container #sidenav_container ul li a {
+        padding: .4rem;
+        padding-left: 1rem;
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; }
+        #products_container #sidenav_container ul li a div {
+          margin-right: 1rem; }
+      #products_container #sidenav_container ul li a.active {
+        background-color: #bbb; }
+
+.product-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem; }

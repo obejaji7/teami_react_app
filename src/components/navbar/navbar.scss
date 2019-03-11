@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+
+    li {
+        margin-right: .5rem;
+        :hover {
+            background-color: #bbb;
+            cursor: pointer;
+        }
+
+        a{
+            padding: .4rem;
+            text-decoration: none;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            div {
+                margin-right: 1rem;
+            }
+        }
+
+        a.active {
+            background-color: #bbb;
+        }
+    }
+}
